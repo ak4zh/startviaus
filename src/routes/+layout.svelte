@@ -71,7 +71,6 @@
 			</svelte:fragment>
 		</AppBar>
 	</svelte:fragment>
-
     <slot />
 </AppShell>
 
