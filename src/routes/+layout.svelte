@@ -12,7 +12,7 @@
 		<AppBar>
 			<svelte:fragment slot="lead">
 				<a href="/">
-					<GradientHeading class="text-5xl" tag="h1" direction="bg-gradient-to-br" from="from-primary-500" to="to-accent-500">
+					<GradientHeading class="text-3xl" tag="h1" direction="bg-gradient-to-br" from="from-primary-500" to="to-accent-500">
 						StartViaUs
 					</GradientHeading>
 				</a>

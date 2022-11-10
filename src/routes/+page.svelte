@@ -1,5 +1,5 @@
 <div class="container mx-auto p-8 space-y-8">
-    <header class="bg-accent-900/5 dark:bg-accent-900/20 border-b border-black/5 dark:border-white/5 px-4 py-10 md:py-20">
+    <header class="card border-b border-black/5 dark:border-white/5 px-4 py-10 md:py-20">
 		<div class="space-y-4 text-center">
             <h2 class="md:text-5xl">You deserve better</h2>
             <p class="md:!text-lg">

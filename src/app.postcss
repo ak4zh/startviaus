@@ -4,6 +4,15 @@
 @tailwind utilities;
 @tailwind variants;
 
-html, body { 
-    @apply h-full overflow-hidden; 
+.glass {
+	@apply bg-opacity-60 dark:bg-opacity-60 backdrop-filter backdrop-blur-lg
+}
+html,
+body {
+	@apply h-full overflow-hidden bg-gradient-to-r from-primary-500 to-surface-500 via-accent-500;
+}
+
+.card {
+	@apply bg-white p-5 rounded-xl glass;
+	/* @apply bg-[conic-gradient(at_bottom_left,_var(--tw-gradient-stops))] from-primary-100 via-surface-400 to-blue-200; */
 }
