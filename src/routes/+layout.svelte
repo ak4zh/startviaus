@@ -1,9 +1,9 @@
 <script>
-    import '@brainandbones/skeleton/themes/theme-modern.css';
+    import '@brainandbones/skeleton/themes/theme-skeleton.css';
     import '@brainandbones/skeleton/styles/all.css';
     import '../app.postcss';
 
-    import { AppShell, AppBar, Divider, GradientHeading, LightSwitch, menu } from '@brainandbones/skeleton';
+    import { AppShell, AppBar, Divider, GradientHeading, LightSwitch, menu, GreenFall } from '@brainandbones/skeleton';
 </script>
 
 <AppShell>
@@ -11,9 +11,11 @@
     <svelte:fragment slot="pageHeader">
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<GradientHeading class="text-5xl" tag="h1" direction="bg-gradient-to-br" from="from-primary-500" to="to-accent-500">
-					StartViaUs
-				</GradientHeading>
+				<a href="/">
+					<GradientHeading class="text-5xl" tag="h1" direction="bg-gradient-to-br" from="from-primary-500" to="to-accent-500">
+						StartViaUs
+					</GradientHeading>
+				</a>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 					<!-- Navigation -->
